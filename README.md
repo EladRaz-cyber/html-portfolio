@@ -1,23 +1,31 @@
 # html-portfolio
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-  <meta charset="UTF-8">
-  <title>Angela's Portfolio</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elad's Portfolio</title>
 </head>
-
 <body>
-  <h1>Angela Yu's Portfolio</h1>
-  <h2>I'm a Web Developer</h2>
-  <hr />
-  <h3><a href="./public/movie-ranking.html">Movie Ranking Project</a></h3>
-  <img src="./assets/images/movie-ranking.png" height="200" alt="movie ranking project preview"/>
-  <h3><a href="./public/birthday-invite.html">Birthday Invite Project</a></h3>
-  <img src="./assets/images/birthday-invite.png" height="200" alt="birthday invite project preview"/>
-  <hr />
-  <a href="./public/about.html">About Me</a>
-  <a href="./public/contact.html">Contact Me</a>
+    <h1>Elad Raz's Portfolio</h1>
+    <h2>Hi my name is Elad Raz, im a web developer</h2><hr>
+    <h2>my web projects:</h2>
+    <ul>
+        <li><h3>moovie rating project</h3>
+            <ul>
+                <li><a href="./ranking index.html">to enter the website</a></li>
+                <img src="./דירוג סרטים.png" height="300">
+            </ul>
+        </li>
+        <hr>
+        <li><h3>birthday inviation</h3>
+            <ul>
+                <li><a href="birthday index.html">to enter the website</a></li>
+                <img src="./הזמנת יומולדת.png" height="300">
+            </ul>
+        </li>
+    </ul>
+    <hr>
+        <a href="./about.html">about</a> <a href="./contact.html">contact me</a>
 </body>
-
 </html>
